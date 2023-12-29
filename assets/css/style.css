@@ -175,6 +175,10 @@ h6 {
 }
 
 @media (max-width: 768px) {
+  body::before {
+    background-size: 50%; 
+    background-position: center top; 
+  }
   #header.header-top {
     height: 60px;
   }
