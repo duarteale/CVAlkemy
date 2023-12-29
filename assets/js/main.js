@@ -152,10 +152,10 @@
    * Testimonials slider
    */
   new Swiper('.certificados-slider', {
-    speed: 600,
+    speed: 200,
     loop: true,
     autoplay: {
-      delay: 5000,
+      delay: 3000,
       disableOnInteraction: false
     },
     slidesPerView: 'auto',
